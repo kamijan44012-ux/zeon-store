@@ -1,15 +1,20 @@
 {
   "name": "zeon-store",
-  "private": true, "homepage": "https://kamijan44012-ux.github.io/zeon-store",
+  "private": true,
+  "homepage": "https://kamijan44012-ux.github.io/zeon-store",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build", "predeploy": "npm run build", "deploy": "gh-pages -d dist",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "firebase": "^12.14.0",
+    "lucide-react": "^1.17.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6"
   },

@@ -3,7 +3,7 @@ import {
   Search, ShoppingCart, Heart, User, MapPin, Menu, X, Star, ChevronRight,
   ChevronLeft, Zap, Truck, ShieldCheck, RotateCcw, Plus, Minus, Trash2,
   Check, CreditCard, Filter, ArrowLeft, Tag, Clock, Package, Home,
-  Phone, Mail, Facebook, Instagram, Twitter, Youtube, ChevronDown, Sparkles,
+  Phone, Mail, ChevronDown, Sparkles,
   Lock, LayoutDashboard, Boxes, ClipboardList, Edit3, LogOut, Database,
   Save, UploadCloud, ShoppingBag, DollarSign, Image as ImageIcon
 } from "lucide-react";
@@ -829,7 +829,7 @@ function Footer({ onNav, onAdmin }) {
             <div className="zn-head" style={{ fontSize: 26, fontWeight: 800, color: BRAND.yellow }}>zeon•</div>
             <p style={{ fontSize: 13, color: "rgba(255,255,255,.6)", marginTop: 8, lineHeight: 1.6 }}>UAE's destination for authentic electronics. Dubai · Abu Dhabi · Sharjah.</p>
             <div style={{ display: "flex", gap: 10, marginTop: 14 }}>
-              {[Facebook, Instagram, Twitter, Youtube].map((I, k) => (
+              {[Youtube].map((I, k) => (
                 <span key={k} style={{ width: 34, height: 34, borderRadius: 10, background: "rgba(255,255,255,.1)", display: "grid", placeItems: "center", cursor: "pointer" }}><I size={16} /></span>
               ))}
             </div>

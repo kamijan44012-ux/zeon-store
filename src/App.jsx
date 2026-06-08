@@ -22,12 +22,12 @@ import {
    added — no localStorage is ever used.
    ============================================================ */
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID",
+  apiKey: "AIzaSyBw-d-N4-0yT4J2-2G1-vV2h467gZ3sI-w",
+  authDomain: "zeonstore-c4391.firebaseapp.com",
+  projectId: "zeonstore-c4391",
+  storageBucket: "zeonstore-c4391.appspot.com",
+  messagingSenderId: "604514782079",
+  appId: "1:604514782079:web:5d2a93144a6253459c7304",
 };
 
 const ADMIN_PIN = "202612570";
